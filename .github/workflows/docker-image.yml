@@ -27,7 +27,7 @@ jobs:
         
     - name: Build Docker Image
       run: |
-        docker container run waldo20gp/docker-graphql:0.0.2 .
+        docker container build waldo20gp/docker-graphql:0.0.2 .
         
     - name: Push Docker Image
       run: |
